@@ -254,7 +254,6 @@ class Game{
                 window.alert("Lunch: Salmon, raw vegetables, such as cherry tomatoes, carrots, cauliflower, and broccoli");
                 this.obstacle5.destroy();
                 this.calsIntake+=250;
-                //this.popupWindow = window.open('Dialog.html?obstacle=5','name','width=200,height=200');
             }
             if(this.obstacle6.visible === true && this.player.collide(this.obstacle6)){
                 window.alert("Post Lunch: Granola (with no sugar added) and fresh fruit");
@@ -294,6 +293,11 @@ class Game{
             this.totalCalsIntake.hide();
             this.loggedIn.hide();
             this.logout.hide();
+            this.overallHealth.hide();
+            this.img1.hide();
+            this.img2.hide();
+            this.img3.hide();
+            this.img4.hide();
 
             gameState = 1;
         })

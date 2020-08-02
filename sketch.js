@@ -11,6 +11,7 @@ var logo;
 
 function setup() {
   logo = createImg("logo.jpg");
+  
   //creating the forms and the game
   console.log(windowHeight);
   user = new User();
@@ -18,7 +19,6 @@ function setup() {
   loginForm = new LoginForm();
   wallsGroup = new Group();
   game = new Game();
-  //popupWindow = window.open('Dialog.html','name','height=300,left=550,menubar=no,resizable=no,scrollbars=no,status=no,titlebar=no,toolbar=no,top=200,width=400');
 }
 
 function draw() {  
