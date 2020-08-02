@@ -2,16 +2,16 @@ class Game{
     constructor(){
         this.canvas1 = createCanvas(windowWidth-936,windowHeight-354);
         
-        this.img1 = createImg("images/battery1.png");
+        this.img1 = createImg("battery1.png");
         this.img1.hide();
 
-        this.img2 = createImg("images/battery2.png");
+        this.img2 = createImg("battery2.png");
         this.img2.hide();
 
-        this.img3 = createImg("images/battery3.png");
+        this.img3 = createImg("battery3.png");
         this.img3.hide();
 
-        this.img4 = createImg("images/battery4.png");
+        this.img4 = createImg("battery4.png");
         this.img4.hide();
 
         this.calsIntake = 0;
@@ -61,7 +61,7 @@ class Game{
         this.player = createSprite(20,20,20,20);
         this.player.shapeColor = "#00ADB5";
 
-        this.virusImg = loadImage("images/virus.png");
+        this.virusImg = loadImage("virus.png");
 
         //borders of the canvas so that the ball stays in the canvas
         this.topEdge    = createSprite(300,0,600,10);

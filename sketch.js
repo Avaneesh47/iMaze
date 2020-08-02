@@ -10,7 +10,7 @@ var gameState = 0;
 var logo;
 
 function setup() {
-  logo = createImg("images/logo.jpg");
+  logo = createImg("logo.jpg");
   //creating the forms and the game
   console.log(windowHeight);
   user = new User();
@@ -64,6 +64,5 @@ async function getTime(){
   var responseJSON = await response.json();
 
   var datetime = responseJSON.datetime;
-  //hour = datetime.slice(11,13);
-  hour = 20;
+  hour = datetime.slice(11,13);
 }
