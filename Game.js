@@ -192,7 +192,7 @@ class Game{
         }
 
         //player stays within the boundaries
-        //this.player.bounceOff(wallsGroup);
+        this.player.bounceOff(wallsGroup);
         this.player.bounceOff(this.topEdge);
         this.player.bounceOff(this.bottomEdge);
         this.player.bounceOff(this.rightEdge);
